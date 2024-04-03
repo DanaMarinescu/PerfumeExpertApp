@@ -7,99 +7,99 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Perfume Expert</h1>
-    </header>
-   
-    <h2 id="find-title" style=" text-align: center;">Find Your Perfume</h2>
-  <div class="container">
-      <div class=class="left-div">
-    <form id="perfumeForm" class="perfumeForm">
-        <label for="gender">Gender</label>
-        <select id="gender" name="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="unisex">Unisex</option>
-        </select>
-        <br><br>
+<header>
+    <h1>Perfume Expert</h1>
+</header>
 
-        <label for="age">Age group</label>
-        <select id="age" name="age">
-            <option value="15-20">15-20</option>
-            <option value="20-30">20-30</option>
-            <option value="30-40">30-40</option>
-            <option value="40+">40+</option>
-        </select>
-        <br><br>
+<h2 id="find-title" style=" text-align: center;">Find Your Perfume</h2>
+<div class="container">
+    <div class=class="left-div">
+        <form id="perfumeForm" class="perfumeForm">
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="unisex">Unisex</option>
+            </select>
+            <br><br>
 
-        <label for="price">Price</label>
-        <select id="price" name="price">
-            <option value="50$-100$">50$-100$</option>
-            <option value="100$-150$">100$-150$</option>
-            <option value="150$-200$">150$-200$</option>
-            <option value="200$+">200$+</option>
-        </select>
-        <br><br>
-  
-        <label for="olfactoryGroup">Olfactory Group</label>
-        <select id="olfactoryGroup" name="olfactoryGroup">
-            <option value="Citrus">Citrus</option>
-            <option value="Floral">Floral</option>
-            <option value="Woody">Woody</option>
-            <option value="Gourmand">Gourmand</option>
-            <option value="Oriental">Oriental</option>
-        </select>
-        <br><br>
-   
-        <label for="season">Season</label>
-        <select id="season" name="season">
-            <option value="Summer">Summer</option>
-            <option value="Fall">Fall</option>
-            <option value="Winter">Winter</option>
-            <option value="Spring">Spring</option>
-        </select>
-        <br><br>
-   
-        <label for="occasion">Occasion</label>
-        <select id="occasion" name="occasion">
-            <option value="Office">Office</option>
-            <option value="Special Occasion">Special Occasion</option>
-            <option value="Everyday Wear">Everyday Wear</option>
-            <option value="Evening/DateNight">Evening/DateNight</option>
-        </select>
-        <br><br>
+            <label for="age">Age group</label>
+            <select id="age" name="age">
+                <option value="15-20">15-20</option>
+                <option value="20-30">20-30</option>
+                <option value="30-40">30-40</option>
+                <option value="40+">40+</option>
+            </select>
+            <br><br>
 
-        <label for="dominantNote">Note</label>
-        <select id="dominantNote" name="dominantNote">
-            <option value="Bergamot">Bergamot</option>
-            <option value="Black Cherry">Black Cherry</option>
-            <option value="Coconut">Coconut</option>
-            <option value="Hyacinth">Hyacinth</option>
-            <option value="Lilac">Lilac</option>
-            <option value="Lily-of-the-Valley">Lily-of-the-Valley</option>
-            <option value="Jasmine">Jasmine</option>
-            <option value="Orange Blossom">Orange Blossom</option>
-            <option value="Tuberose">Tuberose</option>
-            <option value="Cinnamon">Cinnamon</option>
-            <option value="Coffee">Coffee</option>
-            <option value="Tonka">Tonka</option>
-            <option value="Vanilla">Vanilla</option>
-            <option value="Caramel">Caramel</option>
-            <option value="Dark Chocolate">Dark Chocolate</option>
-            <option value="Honey">Honey</option>
-            <option value="Oud">Oud</option>
-            <option value="Sandalwood">Sandalwood</option>
-            <option value="Patchoulli">Patchoulli</option>
-        </select>
-        <br><br>
-        <button type="button" onclick="generatePerfume()" class="next-page-btn">Generate Perfume</button>
-    </form>
-      </div>
-      <div class="right-div">
-          <h4 style="text-align: center;">Expert's Recommendation</h4>
-    <div id="perfumeResult"></div>
-      </div>
-  </div>
+            <label for="price">Price</label>
+            <select id="price" name="price">
+                <option value="50$-100$">50$-100$</option>
+                <option value="100$-150$">100$-150$</option>
+                <option value="150$-200$">150$-200$</option>
+                <option value="200$+">200$+</option>
+            </select>
+            <br><br>
+
+            <label for="olfactoryGroup">Olfactory Group</label>
+            <select id="olfactoryGroup" name="olfactoryGroup">
+                <option value="Citrus">Citrus</option>
+                <option value="Floral">Floral</option>
+                <option value="Woody">Woody</option>
+                <option value="Gourmand">Gourmand</option>
+                <option value="Oriental">Oriental</option>
+            </select>
+            <br><br>
+
+            <label for="season">Season</label>
+            <select id="season" name="season">
+                <option value="Summer">Summer</option>
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring">Spring</option>
+            </select>
+            <br><br>
+
+            <label for="occasion">Occasion</label>
+            <select id="occasion" name="occasion">
+                <option value="Office">Office</option>
+                <option value="Special Occasion">Special Occasion</option>
+                <option value="Everyday Wear">Everyday Wear</option>
+                <option value="Evening/DateNight">Evening/DateNight</option>
+            </select>
+            <br><br>
+
+            <label for="dominantNote">Note</label>
+            <select id="dominantNote" name="dominantNote">
+                <option value="Bergamot">Bergamot</option>
+                <option value="Black Cherry">Black Cherry</option>
+                <option value="Coconut">Coconut</option>
+                <option value="Hyacinth">Hyacinth</option>
+                <option value="Lilac">Lilac</option>
+                <option value="Lily-of-the-Valley">Lily-of-the-Valley</option>
+                <option value="Jasmine">Jasmine</option>
+                <option value="Orange Blossom">Orange Blossom</option>
+                <option value="Tuberose">Tuberose</option>
+                <option value="Cinnamon">Cinnamon</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Tonka">Tonka</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Caramel">Caramel</option>
+                <option value="Dark Chocolate">Dark Chocolate</option>
+                <option value="Honey">Honey</option>
+                <option value="Oud">Oud</option>
+                <option value="Sandalwood">Sandalwood</option>
+                <option value="Patchoulli">Patchoulli</option>
+            </select>
+            <br><br>
+            <button type="button" onclick="generatePerfume()" class="next-page-btn" id="generate-btn">Generate Perfume</button>
+        </form>
+    </div>
+    <div class="right-div">
+        <h4 style="text-align: center;">Expert's Recommendation</h4>
+        <div id="perfumeResult"></div>
+    </div>
+</div>
 <script>
     function generatePerfume() {
             var gender = document.getElementById("gender").value;
